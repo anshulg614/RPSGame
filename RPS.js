@@ -52,3 +52,23 @@ function games() {
     }
 
 }
+window.onload = function () {
+    var showButtons = document.getElementById("show-buttons");
+    var hiddenButtons = document.getElementById("buttons1");
+    var rpgButtons = document.getElementById("buttons");
+
+    hiddenButtons.style.display = "none";
+
+    showButtons.addEventListener("click", function () {
+        if (hiddenButtons.style.display === "none") {
+            hiddenButtons.style.display = "block";
+            showButtons.style.display = "none";
+        } else {
+            hiddenButtons.style.display = "none";
+        }
+    });
+
+    rpgButtons.addEventListener("click", function(){
+
+    });
+}

@@ -5,12 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors GPT</title>
-    <script src="RPS.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="RPS2.js"></script>
 </head>
 
 <body>
-    <button onclick="games()">Start Game</button>
+    <div class="container">
+        <div id="section1">
+            <div id="title1">
+                <strong>Rock, Paper, Scissors Game!</strong>
+            </div>
+            <button id="show-buttons" onclick="openg()" >Start Game</button>
+            <div id="buttons1">
+                <button id="buttons" onclick="rock()">Rock</button>
+                <button id="buttons" onclick="paper()">Paper</button>
+                <button id="buttons" onclick="scissor()">Scissors</button>
+            </div>
+        </div>
+        <div id="section2">
+            <div id = "dataBox">Click Start Game to begin and choose either rock paper or Scissors to make your selection for the round!
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
